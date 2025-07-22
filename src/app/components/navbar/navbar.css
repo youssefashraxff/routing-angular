@@ -1,7 +1,18 @@
 .navbar {
   background-color: rgb(2, 10, 29) !important;
+  z-index: 999 !important;
 }
 .nav-link.active {
   background-color: rgb(0, 76, 253);
   border-radius: 10px;
+}
+.nav-link {
+  transition: 0.3s !important;
+}
+.nav-link:hover {
+  color: rgb(0, 76, 253) !important;
+}
+
+.nav-link.active:hover {
+  color: white !important;
 }
