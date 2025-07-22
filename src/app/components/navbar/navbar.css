@@ -1,0 +1,7 @@
+.navbar {
+  background-color: rgb(2, 10, 29) !important;
+}
+.nav-link.active {
+  background-color: blueviolet !important;
+  border-radius: 10px;
+}
